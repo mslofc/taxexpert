@@ -1,0 +1,235 @@
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex-basis: calc(100% - 20px);
+    }
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+h2{
+    color: #eae5e5;
+    
+}
+p {
+    color: #fff6f6;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #687369;
+}
+.card-section {
+    margin-top:200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    background-color: rgb(46, 52, 52);
+    align-items: center;
+    margin-bottom: 20px;
+    width: calc(33.33% - 10px);
+    background-color: #000000;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 300px;
+}
+.card {
+    flex: 1 1 300px;
+    margin: 10px;
+    margin-top: 10px;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.page-content .blue {
+    color: rgb(37, 37, 46);
+    background-color: #acd0af;
+    
+  }
+
+.page-content h1{
+    color: #000;
+    font-size: 30px;
+}
+.page-content{
+    background-color: #e3f1e5;
+    
+}
+.contact-section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  
+  .contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .contact-section .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-section input[type="text"],
+  .contact-section input[type="email"],
+  .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-section textarea {
+    height: 120px;
+  }
+  
+  .contact-section button {
+    background-color: #5a885c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover {
+    background-color: #284529;
+  }
+  
+  .navbar {
+    background-color: #e9eee9;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-toggle {
+    display: ;
+  }
+  
+  .toggle-icon {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #0c0a0a;
+    margin-top: 3px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+    }
+  
+    .navbar-toggle {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .navbar-collapse {
+      display: none;
+      padding: 10px;
+      background-color: #2d1414;
+    }
+  
+    .navbar-collapse a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-collapse.show {
+      display: block;
+    }
+  }
+/* Existing CSS styles */
+
+.navbar-collapse {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .navbar-collapse a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-collapse.show {
+    display: block;
+  }
+    
